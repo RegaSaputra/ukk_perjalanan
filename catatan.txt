@@ -1,0 +1,5 @@
+850378|adi|2022-02-12|08:26|Blitar|33
+123456|tio|2022-02-25|08:36|SMKN Mojoagung|34
+123456|tio|2022-02-26|09:10|Rumah Doi|35
+112233|Rega Saputra|2022-02-11|06:45|SMKN Mojoagung|34
+112233|Rega Saputra|2022-02-14|10:27|Taman Mojoagung|33 
