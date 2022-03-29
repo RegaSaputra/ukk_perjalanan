@@ -1,4 +1,4 @@
-<div class="card">
+<div class="card" id="invoice">
     <div class="card-header">
         <a href="user.php" class="btn btn-primary btn-icon-split">
             <span class="icon text-white-50">
@@ -7,7 +7,10 @@
             <span class="text">Kembali</span>
         </a>
     </div>
-    <div class="card-body">
+
+
+
+    <div class="card-body" Z>
         <div class="table-responsive">
             <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                 <thead>
@@ -52,3 +55,15 @@
         </div>
     </div>
 </div>
+<div class="col-12 mb-2">
+        <a href="javascript:void()" id="print" class="btn btn-primary py-1 font-16"><i class="mdi mdi-file-document-box-outline mr-2"></i>Print</a>
+    </div>
+    <script>
+                document.getElementById('print').addEventListener('click', function() {
+                    var printContents = document.getElementById('invoice').innerHTML;
+                    var originalContents = document.body.innerHTML;
+                    document.body.innerHTML = printContents;
+                    window.print();
+                    document.body.innerHTML = originalContents;
+                });
+    </script>      
