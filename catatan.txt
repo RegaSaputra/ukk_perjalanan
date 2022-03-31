@@ -3,3 +3,5 @@
 123456|tio|2022-02-26|09:10|Rumah Doi|35
 112233|Rega Saputra|2022-02-11|06:45|SMKN Mojoagung|34
 112233|Rega Saputra|2022-02-14|10:27|Taman Mojoagung|33 
+112233|Rega Saputra|2022-03-16|05:56|jombang|32
+112233|Rega Saputra|2022-04-06|05:56|blitar|34
