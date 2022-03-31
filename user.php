@@ -47,6 +47,7 @@ if (empty($_SESSION['nik'])) { ?>
                 </div>
                 <div class="sidebar-brand-text mx-3">Aplikasi MyTrip</div>
             </a>
+            
 
             <!-- Divider -->
             <hr class="sidebar-divider my-0">
@@ -108,7 +109,7 @@ if (empty($_SESSION['nik'])) { ?>
 
                 <!-- Topbar -->
                 <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
-                    <h3>Aplikasi MyTrip</h3>
+                    <h3><b>Aplikasi MyTrip</b></h3>
                 </nav>
                 <!-- End of Topbar -->
 
@@ -134,7 +135,7 @@ if (empty($_SESSION['nik'])) { ?>
                             }
                         } else {
                             echo "Selamat Datang ";
-                            echo "<b>" . $_SESSION['nama_lengkap'] . "</b>" .  " di Aplikasi Catatan Perjalananku, Aplikasi ini digunakan untuk mencatat perjalanan Anda. ";
+                            echo "<b>" . $_SESSION['nama_lengkap'] . "</b>" .  " , Aplikasi ini digunakan untuk mencatat perjalanan Anda. ";
                             echo "<br><br>Anda Login Sebagai : ";
                             echo "<h2>" . $_SESSION['nama_lengkap'] . "</h2>";
                         }
@@ -145,6 +146,7 @@ if (empty($_SESSION['nik'])) { ?>
                 <!-- /.container-fluid -->
 
             </div>
+            
             <!-- End of Main Content -->
 
             <!-- Footer -->
