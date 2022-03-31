@@ -45,7 +45,7 @@ if (empty($_SESSION['nik'])) { ?>
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-book"></i>
                 </div>
-                <div class="sidebar-brand-text mx-3">Catatan Perjalananku</div>
+                <div class="sidebar-brand-text mx-3">Aplikasi MyTrip</div>
             </a>
 
             <!-- Divider -->
