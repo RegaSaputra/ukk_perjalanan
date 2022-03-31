@@ -37,7 +37,7 @@
                             <div class="col-lg-12">
                                 <div class="p-5">
                                     <div class="text-center">
-                                        <h1 class="h4 text-gray-900 mb-2">Selamat Datang di Catatan Perjalananku</h1>
+                                        <h1 class="h4 text-gray-900 mb-2">Selamat Datang di Aplikasi MyTrip</h1>
                                         <p>Silahkan Masukkan NIK dan Nama Lengkap Anda!</p>
                                     </div>
                                     <form class="user" method="POST" action="proses_login.php">
