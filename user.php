@@ -38,7 +38,7 @@ if (empty($_SESSION['nik'])) { ?>
     <div id="wrapper">
 
         <!-- Sidebar -->
-        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+        <ul class="navbar-nav bg-gradient-success sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
@@ -108,7 +108,7 @@ if (empty($_SESSION['nik'])) { ?>
 
                 <!-- Topbar -->
                 <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
-                    <h3>Aplikasi Catatan Perjalananku</h3>
+                    <h3>Aplikasi MyTrip</h3>
                 </nav>
                 <!-- End of Topbar -->
 

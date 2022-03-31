@@ -3,4 +3,3 @@
 123456|tio|2022-02-26|09:10|Rumah Doi|35
 112233|Rega Saputra|2022-02-11|06:45|SMKN Mojoagung|34
 112233|Rega Saputra|2022-02-14|10:27|Taman Mojoagung|33 
-112233|Rega Saputra|2022-04-01|15:23|jombang|33 derajat celcius

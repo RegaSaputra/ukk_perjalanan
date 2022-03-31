@@ -56,7 +56,7 @@
     </div>
 </div>
 <div class="col-12 mb-2">
-        <a href="javascript:void()" id="print" class="btn btn-primary py-1 font-16"><i class="mdi mdi-file-document-box-outline mr-2"></i>Print</a>
+        <a href="javascript:void()" id="print" class="btn btn-danger py-1 font-16"><i class="mdi mdi-file-document-box-outline mr-2"></i>Print</a>
     </div>
     <script>
                 document.getElementById('print').addEventListener('click', function() {

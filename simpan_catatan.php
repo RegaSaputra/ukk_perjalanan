@@ -19,5 +19,5 @@ fclose($file);
 
 <script type="text/javascript">
     alert('Data Catatan Perjalanan Sudah Tersimpan');
-    window.location.assign('user.php');
+    window.location.assign('user.php?url=catatan_perjalanan');
 </script>
