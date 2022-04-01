@@ -37,6 +37,7 @@
                             <div class="col-lg-12">
                                 <div class="p-5">
                                     <div class="text-center">
+                                    <img src="logo.png" alt="">
                                         <h1 class="h4 text-gray-900 mb-2">Daftar Akun di Aplikasi MyTrip</h1>
                                         <p>Silahkan Masukkan NIK dan Nama Lengkap Anda!</p>
                                     </div>
@@ -66,6 +67,7 @@
         </div>
 
     </div>
+    
 
     <!-- Bootstrap core JavaScript-->
     <script src="vendor/jquery/jquery.min.js"></script>

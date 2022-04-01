@@ -23,6 +23,7 @@
                         <th>Lokasi</th>
                         <th>Suhu Tubuh</th>
                         <th>Edit</th>
+                        <th>Hapus</th>
                     </tr>
                 </thead>
                 <tfoot>
@@ -33,6 +34,7 @@
                         <th>Lokasi</th>
                         <th>Suhu Tubuh</th>
                         <th>Edit</th>
+                        <th>Hapus</th>
                     </tr>
                 </tfoot>
                 <tbody>
@@ -54,6 +56,11 @@
                                 <td>
                                     <a href="?url=edit_catatan&id_catatan=<?= $pecah['0']?>" class="btn btn-warning">
                                     <i class="fa fa-pen"></i> Edit
+                                </td>
+                                <td>
+                                    <a onclick="return confirm('Apakah Anda Yakin Ingin Menghapus?')" href="hapus_catatan.php?id_catatan=<?= $pecah['0']?>" class="btn btn-danger">
+                                        <i class="fa fa-trash"></i> Hapus
+                                    </a>
                                 </td>
                             </tr>
                     <?php }

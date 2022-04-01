@@ -68,6 +68,14 @@
 
     </div>
 
+    <footer class="sticky-footer bg-white">
+        <div class="container my-auto">
+            <div class="copyright text-center my-auto">
+                <span>Copyright &copy; Aplikasi Catatan Perjalanan 2022</span>
+            </div>
+        </div>
+    </footer>
+
     <!-- Bootstrap core JavaScript-->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
