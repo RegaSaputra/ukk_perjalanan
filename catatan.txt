@@ -1,3 +1,9 @@
 ID_CATATAN|NIK|NAMA_LENGKAP|TANGGAL|JAM|LOKASI|SUHU
 
-46124|112233|Rega Saputra|2022-04-14|13:40|jepang|33 derajat celcius
+46124|112233|Rega Saputra|2022-04-14|13:40|blitar|24 derajat celcius
+4418|112233|Rega Saputra|2022-04-19|15:53|jogja|33 derajat celcius
+98232|1234567812345678|Rega Saputra|2022-04-21|17:15|mojokerto|33 derajat celcius
+85047|1234567812345678|Rega Saputra|2022-04-12|17:16|jogja|34 derajat celcius
+6459|1234567812345678|Rega Saputra|2022-04-15|05:34|bali|35 derajat celcius
+63580|1234567812345678|Rega Saputra|2022-04-14|18:35|blitar|34 derajat celcius
+44217|1234567812345678|Rega Saputra|2022-04-22|17:34|malang|35 derajat celcius

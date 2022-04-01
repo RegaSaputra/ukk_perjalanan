@@ -10,7 +10,7 @@ $id_catatan = $_POST['id_catatan'];
 
 $format = "$id_catatan|$nik|$nama_lengkap|$tanggal|$jam|$lokasi|$suhu";
 
-$np = 0;
+$no = 0;
 $data = file('catatan.txt', FILE_IGNORE_NEW_LINES);
 foreach($data as $value){
     $no++;
