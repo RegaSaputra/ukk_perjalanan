@@ -6,7 +6,7 @@
             </span>
             <span class="text">Kembali</span>
         </a> 
-        <a href="javascript:void()" id="print" class="btn btn-danger py-1 font-16"><i class="mdi mdi-file-document-box-outline mr-2"></i>Print</a>
+        <a href="javascript:void()" id="print" class="btn btn-danger py-1 font-16"><i class="fas fa-fw fa-book"></i><i class="mdi mdi-file-document-box-outline mr-2"></i>Print</a>
     </div>
     
 
@@ -22,6 +22,7 @@
                         <th>Jam</th>
                         <th>Lokasi</th>
                         <th>Suhu Tubuh</th>
+                        <th>Edit</th>
                     </tr>
                 </thead>
                 <tfoot>
@@ -31,6 +32,7 @@
                         <th>Jam</th>
                         <th>Lokasi</th>
                         <th>Suhu Tubuh</th>
+                        <th>Edit</th>
                     </tr>
                 </tfoot>
                 <tbody>
@@ -40,15 +42,19 @@
                     $user = $_SESSION['nik'] . "|" . $_SESSION['nama_lengkap'];
                     foreach ($data as $value) {
                         $pecah = explode("|", $value);
-                        @$key = $pecah['0'] . "|" . $pecah['1'];
+                        @$key = $pecah['1'] . "|" . $pecah['2'];
                         if ($key == $user) {
                     ?>
                             <tr>
                                 <td><?= $no++; ?></td>
-                                <td><?= $pecah['2']; ?></td>
                                 <td><?= $pecah['3']; ?></td>
                                 <td><?= $pecah['4']; ?></td>
                                 <td><?= $pecah['5']; ?></td>
+                                <td><?= $pecah['6']; ?></td>
+                                <td>
+                                    <a href="?url=edit_catatan&id_catatan=<?= $pecah['0']?>" class="btn btn-warning">
+                                    <i class="fa fa-pen"></i> Edit
+                                </td>
                             </tr>
                     <?php }
                     } ?>

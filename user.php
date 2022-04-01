@@ -129,6 +129,10 @@ if (empty($_SESSION['nik'])) { ?>
                                     include 'catatan_perjalanan.php';
                                     break;
 
+                                case 'edit_catatan';
+                                    include 'edit_catatan.php';
+                                    break;
+
                                 default:
                                     echo "<h3>Halaman Tidak Ditemukan</h3>";
                                     break;
@@ -153,7 +157,7 @@ if (empty($_SESSION['nik'])) { ?>
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Aplikasi Catatan Perjalananku 2022</span>
+                        <span>Copyright &copy; Aplikasi Catatan Perjalanan 2022</span>
                     </div>
                 </div>
             </footer>

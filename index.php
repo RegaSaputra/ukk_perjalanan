@@ -37,7 +37,7 @@
                             <div class="col-lg-12">
                                 <div class="p-5">
                                     <div class="text-center">
-                                    
+                                    <img src="logo.png" alt="">
                                         <h1 class="h4 text-gray-900 mb-2">Selamat Datang di Aplikasi MyTrip</h1>
                                         <p>Silahkan Masukkan NIK dan Nama Lengkap Anda!</p>
                                     </div>

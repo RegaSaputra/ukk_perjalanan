@@ -6,8 +6,9 @@ $tanggal = $_POST['tanggal'];
 $jam = $_POST['jam'];
 $lokasi = $_POST['lokasi'];
 $suhu = $_POST['suhu'];
+$id_catatan = rand(0,100000);
 
-$format = "\n$nik|$nama_lengkap|$tanggal|$jam|$lokasi|$suhu";
+$format = "\n$id_catatan|$nik|$nama_lengkap|$tanggal|$jam|$lokasi|$suhu";
 
 //buka file config.txt
 $file = fopen('catatan.txt', 'a');
