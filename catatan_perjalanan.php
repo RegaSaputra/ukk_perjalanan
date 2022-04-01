@@ -8,9 +8,6 @@
         </a> 
         <a href="javascript:void()" id="print" class="btn btn-danger py-1 font-16"><i class="fas fa-fw fa-book"></i><i class="mdi mdi-file-document-box-outline mr-2"></i>Print</a>
     </div>
-    
-
-
 
     <div class="card-body" Z>
         <div class="table-responsive">

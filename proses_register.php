@@ -27,7 +27,6 @@ if ($cek) { //jika nik sudah terdaftar
 
     //tutup file 
     fclose($file);
-
 ?>
     <script type="text/javascript">
         alert('Pendaftaran Berhasil Dilakukan.');

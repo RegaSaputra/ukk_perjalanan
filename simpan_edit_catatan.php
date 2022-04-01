@@ -25,8 +25,6 @@ $data = implode("\n",$data);
 file_put_contents('catatan.txt',$data);
 ?>
 
-
-
 <script type="text/javascript">
     alert('Data Catatan Perjalanan Sudah Terubah');
     window.location.assign('user.php?url=catatan_perjalanan');
